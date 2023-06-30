@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.myNav{
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    color: red;
+    z-index: 1000;
+}
+.myNavGaleri{
+    position: fixed;
+    width: 100%;
+    color: red;
+    z-index: 1000;
+    background-color: black;
+}
+.navInt{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.navContent{
+    text-decoration: none;
+    font-size: xx-large;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px rgba(255, 0, 0, 0.5);
+}
+.navContent:hover{
+    opacity: 0.9;
+    transition: 0.3s;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+.pageBaslik{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.section-1{
+    padding: 125px 12%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: large;
+    height: 500px;
+    color: white;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(slider1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1Metin{
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 30px;
+}
+.section-1Button{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.section-1RedLine{
+    color: red;
+    text-shadow: 2px 2px 1px white;
+}
+.navItems-moved{
+    color: white!important;
+}
+.nav-moved {
+    background-color: rgba(0, 0, 0, 1);
+    transition: 0.4s;
+    opacity: 1;
+    margin-top: -50px;
+}
+footer a{
+	text-decoration:none;
+	background-color:black;
+	color:white;
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	height:70px;
+    font-family: 'Oswald', sans-serif;
+	padding-top:50px;
+	font-size:18px;
+}
+.section-2{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.section-3{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-3 a{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+    
+}
+.section-3 a:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+
+  }
+.card img{
+    height: 250px;
+    object-fit: cover;
+}  
+.card img:hover{
+    transform: scale(110%);
+    transition: 0.3s;
+} 
+
+  .container{
+    text-align: center;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: red;
+}
+  
+/* Add a background color and some padding around the form */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+font-family: 'Oswald', sans-serif;
+}
+.galeriTanitim{
+padding: 200px 12%  125px 12%;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+margin: 0 auto;
+font-size: 30px;
+}
+.galeriResimleri{
+display: flex;
+justify-content: center;
+height: 350px;
+}
+.resim{
+    overflow: hidden;
+}
+.resim img{
+width: 100%;
+height: 350px;
+object-fit: cover;
+opacity: 0.8;
+}
+.resim img:hover{
+transform: scale(105%);
+transition: 0.4s;
+opacity: 1;
+}

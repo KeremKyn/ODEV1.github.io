@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTOPYA Teknoloji</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="myNav" class="myNav">
+        <div class="pageBaslik">
+            UTOPYA Teknoloji
+        </div>
+        <div class="nav">
+            <div class="navInt" id="navItems">
+                <a class="navContent" href="index.html">
+                    Hakkımzda
+                </a>
+                <a class="navContent" href="urunler.html">
+                    Ürünlerimiz 
+                </a>
+                <a class="navContent" href="hizmetlerimiz.html">
+                    Hizmetlerimiz
+                </a>
+                <a class="navContent" href="lokasyon.html">
+                    Lokasyon
+                </a>
+                <a class="navContent" href="iletisim.html">
+                    İletişim
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section-1" style="background-color:rgba(0, 0, 0, 0.1); background-image:none; height: 200px;padding-top: 200px;">
+        <div class="section-1Metin" style="color: black;">
+            Hizmetlerimiz öncelikli olarak yüksek kaliteli ürün sağlamaktır. Bunlar: İşlemciler,bellekler,depolama birimleri ve daha birçok bileşen içeren performanslı ürünler üretmek. Uyumluluk açısından hangi parçalara ihtiyaç duyduğunuza yardımcı olucak danışman ve çalışanlarımız yardımcı olmaktadır. Teslimatlarımız hızlı ve güvenli bir şekilde teslim edilmektedir. Ürün kurulumu, uyumluluk, sorun giderme veya herhangi bir teknik konuda size yardımcı olmak için teknik destek ekibimiz mevcuttur. 
+            <br>
+        </div>
+    </div>
+    <div class="section-2"> 
+        <div class="card">
+            <img src="h1.webp" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Teknik Servis</b></h4>
+              <p>Müşteri memnuniyeti odaklı yaklaşımımızla, deneyimli teknik ekibimiz, hızlı ve etkili çözümler sunmak için burada bulunmaktadır. Bilgisayarınızla ilgili herhangi bir sorunla karşılaştığınızda, donanım veya yazılım problemleriyle mücadele etmek için size yardımcı olmak için hazırız.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="h2.webp" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Ürün Satışı</b></h4>
+              <p>En son teknoloji ve kalite standartlarına uygun olarak seçilen ürünlerimizle, size en iyi performansı ve işlevselliği sunmayı hedefliyoruz. Dizüstü bilgisayarlar, masaüstü bilgisayarlar, oyun bilgisayarları, tablet ve bilgisayar parçaları ile daha birçok seçenek arasından ihtiyaçlarınıza en uygun olanı seçebilirsiniz.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="h3.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Danışmanlık Hizmeti</b></h4>
+              <p>Bilgisayar satın alırken doğru seçimi yapmak önemlidir ve işte bu noktada size yardımcı olmak için buradayız. Deneyimli teknik ekibimiz, ihtiyaçlarınızı anlamak ve buna uygun bilgisayar önerileri sunmak için hazırdır.</p>
+            </div>
+          </div>
+    </div>  
+
+    <footer>
+        <a href="#">
+            OSTİM TEKNİK ÜNİVERSİTESİ&copy;<br>
+            Ahmet Kerem KOYUN
+        </a>
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script> 
+		window.addEventListener("scroll",function()
+		{
+			const nav = document.getElementById("myNav");
+            const navItems = document.getElementById("navItems") 
+			nav.classList.toggle("nav-moved",window.scrollY > 0);
+            navItems.classList.toggle("navItems-moved",window.scrollY > 0)
+
+		})
+	</script>
+</body>
+</html>
