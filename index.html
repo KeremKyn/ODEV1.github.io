@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTOPYA Teknoloji</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="myNav" class="myNav">
+        <div class="pageBaslik">
+            UTOPYA Teknoloji
+        </div>
+        <div class="nav">
+            <div class="navInt" id="navItems">
+                <a class="navContent" href="index.html">
+                    Hakkımzda
+                </a>
+                <a class="navContent" href="urunler.html">
+                    Ürünlerimiz 
+                </a>
+                <a class="navContent" href="hizmetlerimiz.html">
+                    Hizmetlerimiz
+                </a>
+                <a class="navContent" href="lokasyon.html">
+                    Lokasyon
+                </a>
+                <a class="navContent" href="iletisim.html">
+                    İletişim
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section-1">
+        <div class="section-1Metin">
+            Hoş Geldiniz <span class="section-1RedLine">Utopya</span> 'nin Resmi Web Sitesine! <br>
+            Bilgisayarınızı özelleştirmek, yükseltmek veya tamir etmek için ihtiyaç duyduğunuz her türlü parçayı üreten güvenilir bir markayız. kalite ve performansı bir araya getiren ürünler sunmaktayız.Ürünlerimiz: Güçlü işlemciler, yüksek kapasiteli RAM'ler, hızlı ve güvenilir depolama birimleri, güncel ekran kartları ve daha birçok parçayı size sunuyoruz.
+            <br>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="card">
+            <img src="pc1.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Bilgisayar</b></h4>
+              <p> Size modern ve kullanıcı dostu tasarımlarıyla dikkat çeken üst düzey bir bilgisayar deneyimi sunabilicek Gamer ve ofis bilgisayarları bulunur. Güçlü donanım bileşenleri ve gelişmiş özellikleriyle, iş, eğlence veya yaratıcı projeleriniz için ideal bir seçenek sunmaktadır.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="yp.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>Yedek Parça</b></h4>
+              <p>İhtiyaç duyduğunuz her türlü pc yedek parçasını bulabileceğiniz güvenilir ve kapsamlı bir online alışveriş platformuyuz. Müşteri memnuniyetini en üst düzeyde tutmayı hedefleyen yedek parçaları, geniş bir ürün yelpazesi sunar. İster dizüstü bilgisayarınızın parçalarını güncellemek, ister masaüstü bilgisayarınızı tamir etmek isteyin, ihtiyaçlarınıza uygun parçaları bulmanızı sağalr.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="aksesuar.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>PC Ekipman & Aksesuar</b></h4>
+              <p>Bilgisayarınızı güçlendirmek, özelleştirmek ve en iyi performansı elde etmek için ihtiyaç duyduğunuz her türlü ekipman ve aksesuarı bulabileceğiniz bir online alışveriş platformuyuz. Bilgisayarınızı daha verimli hale getirmek, oyun deneyiminizi yükseltmek veya çalışma ortamınızı daha ergonomik hale getirmek isterseniz, ihtiyaçlarınıza uygun ürünleri bulabilirsiniz.</p>
+            </div>
+          </div>
+    </div>  
+    <div class="section-3">
+        <div>
+            <a href="urunler.html">Tüm Ürünleri Görüntüle</a>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#">
+            OSTİM TEKNİK ÜNİVERSİTESİ&copy;<br>
+            Ahmet Kerem KOYUN
+        </a>
+        
+
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script> 
+		window.addEventListener("scroll",function()
+		{
+			const nav = document.getElementById("myNav");
+            const navItems = document.getElementById("navItems") 
+			nav.classList.toggle("nav-moved",window.scrollY > 0);
+            navItems.classList.toggle("navItems-moved",window.scrollY > 0)
+
+		})
+	</script>
+</body>
+</html>
